@@ -1,0 +1,36 @@
+.add-todo {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.add-todo input {
+    width: 70%;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 0px 5px;
+}
+
+.add-todo button {
+    height: 40px;
+    width: 10%;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    margin: 0px -5px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: rgb(54, 125, 238);
+    color: #fff;
+}
+
+.error {
+    margin: 10px auto;
+    background-color: rgb(67, 164, 202);
+    width: 78%;
+    padding: 10px;
+    color: rgb(191, 199, 200);
+    font-style: italic;
+    border-radius: 5px;
+}

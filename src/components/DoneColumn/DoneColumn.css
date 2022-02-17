@@ -1,0 +1,12 @@
+.done-column {
+    width: 400px;
+    margin: 0 30px;
+}
+
+.empty-space {
+    margin-bottom: 15px;
+    background-color: transparent;
+    height: 40px;
+    opacity: 0;
+}
+

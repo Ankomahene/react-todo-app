@@ -1,13 +1,12 @@
 .add-todo {
-    margin: 20px 0px;
-    text-align: center;
+    margin: 10px 0px;
 }
 
 .add-todo input {
-    width: 70%;
+    width: 85%;
     height: 40px;
-    font-size: 18px;
-    border-radius: 5px;
+    font-size: 16px;
+    border-radius: 2px;
     border: none;
     outline: none;
     padding: 0px 5px;
@@ -15,22 +14,25 @@
 
 .add-todo button {
     height: 40px;
-    width: 10%;
+    width: 52px;
     font-size: 18px;
     outline: none;
     border: none;
-    margin: 0px -5px;
-    border-radius: 0px 5px 5px 0px;
-    background-color: rgb(54, 125, 238);
+    margin: 0px -3px;
+    border-radius: 0px 2px 2px 0px;
+    background-color: #2c43ac;
     color: #fff;
+    cursor: pointer;
+}
+
+.add-todo button:hover {
+    background-color: #20348b;
 }
 
 .error {
-    margin: 10px auto;
-    background-color: rgb(67, 164, 202);
-    width: 78%;
-    padding: 10px;
-    color: rgb(191, 199, 200);
+    margin: 5px auto;
+    background-color: transparent;
+    width: 95%;
+    color: #ff9797;
     font-style: italic;
-    border-radius: 5px;
 }

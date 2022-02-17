@@ -1,5 +1,7 @@
 .items {
-    margin: 0px auto 20px auto;
-    padding: 10px 0px;
-    border-radius: 10px;
+    border-radius: 2px;
+    padding: 5px 0;
+    height: 380px;
+    overflow-y: auto;
+    background-color: #ffffff;
 }

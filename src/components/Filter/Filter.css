@@ -1,0 +1,34 @@
+.filter-sort {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid #dbdbdb;
+    background-color: #97ebcf;
+}
+
+.filter-sort small {
+    color: #474747;
+    margin: 0 10px;
+}
+
+.filter {
+    width: 70%;
+}
+
+.filter input {
+    width: 90%;
+    outline: none;
+    color: #474747;
+    padding: 2px;
+    border: 1px solid #e4e4e4;
+    border-right: none;
+
+}
+
+.filter button {
+    outline: none;
+    padding: 2px;
+    border: 1px solid #e4e4e4;
+    border-left: none;
+}

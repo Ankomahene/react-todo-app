@@ -1,17 +1,32 @@
-.parent {
+.app {
     background: #4e54c8;
     background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);
     background: linear-gradient(to right, #8f94fb, #4e54c8);
-    height: 100vh;
+}
+.header {
+    background-color: #4b52d8;
+    height: 10vh;
+    text-align: center;
+    color: #e3e3e4;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.main {
-    background: #6f95dd;
-    width: 70%;
-    border: 2px solid #9ae5fa;
-    border-radius: 10px;
-    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
+.items-wrapper {
+    height: 400px;
+}
+
+footer {
+    height: 5vh;
+    text-align: center;
+    color: #e3e3e4;
 }

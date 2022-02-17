@@ -1,0 +1,11 @@
+.item-header {
+    color: rgb(240, 244, 245);
+    margin: 0px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.label {
+    font-size: large;
+    font-weight: bolder;
+}

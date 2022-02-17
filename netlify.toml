@@ -1,2 +1,2 @@
-[context.branch-deploy.environment]
+[build.environment]
   NODE_VERSION = "17.5.0"
